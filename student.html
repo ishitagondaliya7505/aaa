@@ -1,0 +1,83 @@
+
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            body{
+                background-color:yellow;
+            }
+            form{
+                margin:auto;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: larger;
+                border: 2px solid black;
+                background-color: aquamarine;
+                height: 500px;
+                width: 450px;
+                transition: 100ms;
+                animation: ishita 7s infinite;
+            }
+            form:hover{
+                background:rebeccapurple;
+            }
+            @keyframes ishita {
+                0%{background: rgb(188,255,2);}
+                25%{background-color: blue;}
+                50%{background-color: blueviolet;}
+                75%{background-color: chocolate;}
+                100%{margin-top:300px;}
+            }
+            .main-button-conitain-map button {
+             width: 216px;
+             font-size: 15px;
+            }
+            .main-map-center-bun img {
+            height: 29px;
+            width: 33px;
+}
+        </style>
+    </head>
+        <body>
+            <center style=  "background-color: beige; font-style: oblique;">
+                <h1 align="center"> STUDENT REGISTRATION</h1>
+            <label>FIRST NAME :</label>
+            <input type="text" name="fname" placeholder="ishita" >
+            <br><br> 
+            <label>LAST NAME :</label>
+            <input type="text" name="lname" placeholder="gondaliya" >
+            <br><br>
+            <label>GENDER :</label>male
+            <input type="radio" name="name">female<input type="radio" name="name">
+            <br><br>
+            <label> HOW MANY PERCENTAGE IN 12 STD:</label>
+            <select name="days" id="days">
+            <option value="select">select</option>
+            <option value="10%">10%</option>
+            <option value="20%">20%</option>
+            <option value="30%">30%</option>
+            <option value="40%">40%</option>
+            <option value="50%">50%</option>
+            <option value="60%">60%</option>
+            <option value="70%">70%</option>
+            <option value="80%">80%</option>
+            <option value="90%">90%</option>
+            <option value="100%">100%</option>
+            </select>
+            <br><br>
+            <label>ADDRESS :</label>
+            <br>
+            <textarea rows="10" cols="50"></textarea>
+            <br><br>
+            <label>AADHARCARD/PANCARD NUMBER :</label>
+            <input type="number">
+            <br><br>
+            <input type="submit" style="background-color: aquamarine;" onclick="alert('form is submitted')">
+            <input type="reset" style="background-color:aqua;">
+            </form>
+        </body>
+    </div>
+</div>
+<a href="index.html">index</a>
+    </form>
+    </html>
